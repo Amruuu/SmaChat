@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5684CE93AA0F12F99D753EC1 /* Pods_SmaChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CD8114EA066C09D3B11F752 /* Pods_SmaChat.framework */; };
+		C5134F0A234288BE00DC4520 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5134F09234288BE00DC4520 /* Room.swift */; };
+		C5169C2B234D16C7003113A7 /* ChatCellx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5169C2A234D16C7003113A7 /* ChatCellx.swift */; };
+		C5169C2F234D1E4C003113A7 /* SingleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5169C2E234D1E4C003113A7 /* SingleMessage.swift */; };
+		C51722FD2343E050004EEC6A /* ChatDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51722FC2343E050004EEC6A /* ChatDetailsViewController.swift */; };
+		C51723022343E15A004EEC6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51722FF2343E078004EEC6A /* ViewController.swift */; };
+		C51B2FB82326CDDD00C43472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B2FB72326CDDD00C43472 /* AppDelegate.swift */; };
+		C51B2FBF2326CDE100C43472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51B2FBE2326CDE100C43472 /* Assets.xcassets */; };
+		C51B2FCA2326CFCF00C43472 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C51B2FC92326CFCF00C43472 /* GoogleService-Info.plist */; };
+		C51B2FCC2326D65200C43472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51B2FCB2326D65200C43472 /* LaunchScreen.storyboard */; };
+		C51B2FCE2326D6C500C43472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51B2FCD2326D6C200C43472 /* Main.storyboard */; };
+		C51B2FD02326D70400C43472 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B2FCF2326D70300C43472 /* HomeVC.swift */; };
+		C51B2FD22326D71B00C43472 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B2FD12326D71B00C43472 /* CreateAccountVC.swift */; };
+		C51B2FD92326D99200C43472 /* Contactss.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B2FD82326D99200C43472 /* Contactss.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CD8114EA066C09D3B11F752 /* Pods_SmaChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmaChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5134F09234288BE00DC4520 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		C5169C2A234D16C7003113A7 /* ChatCellx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCellx.swift; sourceTree = "<group>"; };
+		C5169C2E234D1E4C003113A7 /* SingleMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMessage.swift; sourceTree = "<group>"; };
+		C51722FC2343E050004EEC6A /* ChatDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailsViewController.swift; sourceTree = "<group>"; };
+		C51722FF2343E078004EEC6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C51B2FB42326CDDD00C43472 /* SmaChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmaChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51B2FB72326CDDD00C43472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C51B2FBE2326CDE100C43472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C51B2FC32326CDE100C43472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51B2FC92326CFCF00C43472 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C51B2FCB2326D65200C43472 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C51B2FCD2326D6C200C43472 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C51B2FCF2326D70300C43472 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C51B2FD12326D71B00C43472 /* CreateAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		C51B2FD82326D99200C43472 /* Contactss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contactss.swift; sourceTree = "<group>"; };
+		F40315D11E12845E48EBDDDF /* Pods-SmaChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmaChat.release.xcconfig"; path = "Target Support Files/Pods-SmaChat/Pods-SmaChat.release.xcconfig"; sourceTree = "<group>"; };
+		FCA33B8ED09451585D9986B5 /* Pods-SmaChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmaChat.debug.xcconfig"; path = "Target Support Files/Pods-SmaChat/Pods-SmaChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C51B2FB12326CDDD00C43472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5684CE93AA0F12F99D753EC1 /* Pods_SmaChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CA10F0FFA4735129256172 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CD8114EA066C09D3B11F752 /* Pods_SmaChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5134F082342889200DC4520 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C5134F09234288BE00DC4520 /* Room.swift */,
+				C5169C2E234D1E4C003113A7 /* SingleMessage.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C5169C2D234D1DE8003113A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5169C2A234D16C7003113A7 /* ChatCellx.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C51722FE2343E070004EEC6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C51722FF2343E078004EEC6A /* ViewController.swift */,
+				C51B2FD12326D71B00C43472 /* CreateAccountVC.swift */,
+				C51B2FCF2326D70300C43472 /* HomeVC.swift */,
+				C51722FC2343E050004EEC6A /* ChatDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C51B2FAB2326CDDD00C43472 = {
+			isa = PBXGroup;
+			children = (
+				C51B2FB62326CDDD00C43472 /* SmaChat */,
+				C51B2FB52326CDDD00C43472 /* Products */,
+				F1C18AB3367EF0B157C14390 /* Pods */,
+				01CA10F0FFA4735129256172 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C51B2FB52326CDDD00C43472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C51B2FB42326CDDD00C43472 /* SmaChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C51B2FB62326CDDD00C43472 /* SmaChat */ = {
+			isa = PBXGroup;
+			children = (
+				C5169C2D234D1DE8003113A7 /* View */,
+				C51722FE2343E070004EEC6A /* Controller */,
+				C51B2FB72326CDDD00C43472 /* AppDelegate.swift */,
+				C5134F082342889200DC4520 /* Modules */,
+				C51B2FD72326D97300C43472 /* Utillities */,
+				C51B2FCD2326D6C200C43472 /* Main.storyboard */,
+				C51B2FBE2326CDE100C43472 /* Assets.xcassets */,
+				C51B2FCB2326D65200C43472 /* LaunchScreen.storyboard */,
+				C51B2FC32326CDE100C43472 /* Info.plist */,
+				C51B2FC92326CFCF00C43472 /* GoogleService-Info.plist */,
+			);
+			path = SmaChat;
+			sourceTree = "<group>";
+		};
+		C51B2FD72326D97300C43472 /* Utillities */ = {
+			isa = PBXGroup;
+			children = (
+				C51B2FD82326D99200C43472 /* Contactss.swift */,
+			);
+			path = Utillities;
+			sourceTree = "<group>";
+		};
+		F1C18AB3367EF0B157C14390 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCA33B8ED09451585D9986B5 /* Pods-SmaChat.debug.xcconfig */,
+				F40315D11E12845E48EBDDDF /* Pods-SmaChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C51B2FB32326CDDD00C43472 /* SmaChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51B2FC62326CDE100C43472 /* Build configuration list for PBXNativeTarget "SmaChat" */;
+			buildPhases = (
+				D180124674D928E57657DC66 /* [CP] Check Pods Manifest.lock */,
+				C51B2FB02326CDDD00C43472 /* Sources */,
+				C51B2FB12326CDDD00C43472 /* Frameworks */,
+				C51B2FB22326CDDD00C43472 /* Resources */,
+				1DB510C87B05412E81F7F4EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmaChat;
+			productName = SmaChat;
+			productReference = C51B2FB42326CDDD00C43472 /* SmaChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C51B2FAC2326CDDD00C43472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Amr;
+				TargetAttributes = {
+					C51B2FB32326CDDD00C43472 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C51B2FAF2326CDDD00C43472 /* Build configuration list for PBXProject "SmaChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C51B2FAB2326CDDD00C43472;
+			productRefGroup = C51B2FB52326CDDD00C43472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C51B2FB32326CDDD00C43472 /* SmaChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C51B2FB22326CDDD00C43472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51B2FCA2326CFCF00C43472 /* GoogleService-Info.plist in Resources */,
+				C51B2FCE2326D6C500C43472 /* Main.storyboard in Resources */,
+				C51B2FBF2326CDE100C43472 /* Assets.xcassets in Resources */,
+				C51B2FCC2326D65200C43472 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DB510C87B05412E81F7F4EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmaChat/Pods-SmaChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmaChat/Pods-SmaChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmaChat/Pods-SmaChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D180124674D928E57657DC66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmaChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C51B2FB02326CDDD00C43472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51B2FD02326D70400C43472 /* HomeVC.swift in Sources */,
+				C5169C2F234D1E4C003113A7 /* SingleMessage.swift in Sources */,
+				C51B2FD22326D71B00C43472 /* CreateAccountVC.swift in Sources */,
+				C5169C2B234D16C7003113A7 /* ChatCellx.swift in Sources */,
+				C51722FD2343E050004EEC6A /* ChatDetailsViewController.swift in Sources */,
+				C5134F0A234288BE00DC4520 /* Room.swift in Sources */,
+				C51723022343E15A004EEC6A /* ViewController.swift in Sources */,
+				C51B2FB82326CDDD00C43472 /* AppDelegate.swift in Sources */,
+				C51B2FD92326D99200C43472 /* Contactss.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C51B2FC42326CDE100C43472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C51B2FC52326CDE100C43472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C51B2FC72326CDE100C43472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA33B8ED09451585D9986B5 /* Pods-SmaChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J54NSMQRT6;
+				INFOPLIST_FILE = SmaChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.ios.amr.SmaChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C51B2FC82326CDE100C43472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40315D11E12845E48EBDDDF /* Pods-SmaChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J54NSMQRT6;
+				INFOPLIST_FILE = SmaChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.ios.amr.SmaChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C51B2FAF2326CDDD00C43472 /* Build configuration list for PBXProject "SmaChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51B2FC42326CDE100C43472 /* Debug */,
+				C51B2FC52326CDE100C43472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51B2FC62326CDE100C43472 /* Build configuration list for PBXNativeTarget "SmaChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C51B2FC72326CDE100C43472 /* Debug */,
+				C51B2FC82326CDE100C43472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C51B2FAC2326CDDD00C43472 /* Project object */;
+}
